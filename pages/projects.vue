@@ -11,7 +11,7 @@
         <li v-for="project in era.projects">
           <article class="card">
             <header class="card-header">
-              <img :src="`/_nuxt/assets/images/thumbnails/${project.imgSrc}`"
+              <img :src="`images/thumbnails/${project.imgSrc}`"
                 class="object-cover aspect-square rounded-lg" />
             </header>
             <main class="card-body">
